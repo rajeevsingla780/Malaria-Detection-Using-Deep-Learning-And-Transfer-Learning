@@ -1,15 +1,3 @@
-
-
-# -*- coding: utf-8 -*-
-"""
-@author: Krish.Naik
-"""
-
-## MAlaria Detection using Transfer Learning
-
-# Download The Dataset from 
-#https://www.kaggle.com/iarunava/cell-images-for-detecting-malaria
-
 from keras.layers import Input, Lambda, Dense, Flatten
 from keras.models import Model
 #from keras.applications.vgg16 import VGG16
