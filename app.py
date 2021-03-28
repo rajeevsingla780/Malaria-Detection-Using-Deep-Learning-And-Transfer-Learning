@@ -42,7 +42,7 @@ def model_predict(img_path, model):
 
     # Be careful how your trained model deals with the input
     # otherwise, it won't make correct prediction!
-    x = preprocess_input(x)
+    #x = preprocess_input(x)
 
     preds = model.predict(x)
     preds=np.argmax(preds, axis=1)
